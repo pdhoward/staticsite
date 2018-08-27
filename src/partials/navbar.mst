@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="./">
-          <img src="images/software-dawg-logo.png" alt="Logo" class="logo"> <span>Software Dawg</span>
+          <img src="images/software-dawg-logo.png" alt="Logo" class="logo"> <span>Strategic Machines</span>
         </a>
         <span class="navbar-burger burger" target="navbarMenu">
           <span></span>
