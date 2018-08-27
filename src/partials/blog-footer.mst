@@ -1,0 +1,9 @@
+  <div class="container">
+    <div class="columns">
+      <div class="column is-10-mobile is-offset-1-mobile is-8 is-offset-2">
+        <p>
+          <a href="./">Back to the article list</a>
+        </p>
+      </div>
+    </div>
+  </div>

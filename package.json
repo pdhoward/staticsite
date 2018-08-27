@@ -1,0 +1,33 @@
+{
+  "name": "staticsite",
+  "version": "1.0.0",
+  "description": "basic custom static site generator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "build": "export NODE_ENV=prod || set NODE_ENV=prod && node src/index.js",
+    "sass:watch": "node-sass -w scss -o src/css",
+    "sass:build": "node-sass scss -o src/css",
+    "live-reload": "browser-sync public -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pdhoward/staticsite"
+  },
+  "keywords": [
+    "content",
+    "nodejs"
+  ],
+  "author": "xio",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "3.5.1",
+    "bulma": "0.7.1",
+    "chokidar": "2.0.4",
+    "fs-extra": "6.0.1",
+    "moment": "2.22.2",
+    "mustache": "2.3.0",
+    "node-sass": "4.9.2"
+  }
+}

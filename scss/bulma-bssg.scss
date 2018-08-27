@@ -1,0 +1,29 @@
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Roboto+Mono|Lato");
+
+// Set your brand colors
+// $purple: #8A4D76;
+// $pink: #FA7C91;
+// $brown: #757763;
+// $beige-light: #D0D1CD;
+// $beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Alegreya", serif;
+$code-family: Consolas, "Roboto Mono", "Liberation Mono", Menlo, Courier, monospace;
+$body-size: 20px;
+$body-line-height: 1.65;
+
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+// $primary: $purple;
+// $link: $pink;
+
+// Update some of Bulma's component variables
+// $control-border-width: 2px;
+// $input-background-color: $beige-lighter;
+// $input-border-color: transparent;
+// $input-shadow: none;
+
+// Import the rest of Bulma
+@import "../node_modules/bulma/bulma";
