@@ -1,6 +1,6 @@
 # Static Site
 
-Basic custom static site generator. 
+Basic custom static site generator.
 Requires Node.js >= 8.11.x
 
 ## Development
@@ -30,7 +30,3 @@ npm run build
 ```
 
 Note that the compiled css files are also checked into source control so compiling sass is not a hard requirement.
-
-## Deployment
-
-This project's static Pages are built by GitLab CI, following the steps defined in [`.gitlab-ci.yml`](.gitlab-ci.yml)
