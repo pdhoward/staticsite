@@ -1,7 +1,6 @@
-# software-dawg
+# Static Site
 
-A satire blog using a basic custom static site generator. See [https://smalldata.tech/blog/2018/08/16/building-a-simple-static-site-generator-using-node-js](https://smalldata.tech/blog/2018/08/16/building-a-simple-static-site-generator-using-node-js)
-
+Basic custom static site generator. 
 Requires Node.js >= 8.11.x
 
 ## Development
